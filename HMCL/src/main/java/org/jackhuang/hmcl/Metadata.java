@@ -30,17 +30,17 @@ import java.nio.file.Paths;
 public final class Metadata {
     private Metadata() {}
 
-    public static final String NAME = "HMCL";
-    public static final String FULL_NAME = "Hello Minecraft! Launcher";
-    public static final String VERSION = System.getProperty("hmcl.version.override", JarUtils.thisJar().flatMap(JarUtils::getImplementationVersion).orElse("@develop@"));
+    public static final String NAME = "JaskerLauncher";
+    public static final String FULL_NAME = "JaskerLauncher";
+    public static final String VERSION = "Beta 220814";
 
     public static final String TITLE = NAME + " " + VERSION;
-    public static final String FULL_TITLE = FULL_NAME + " v" + VERSION;
+    public static final String FULL_TITLE = FULL_NAME + " " + VERSION;
 
     public static final String UPDATE_URL = System.getProperty("hmcl.update_source.override", "https://hmcl.huangyuhui.net/api/update_link");
-    public static final String CONTACT_URL = "https://github.com/huanghongxun/HMCL/issues";
-    public static final String HELP_URL = "https://hmcl.huangyuhui.net/help";
-    public static final String CHANGELOG_URL = "https://hmcl.huangyuhui.net/changelog/";
+    public static final String CONTACT_URL = "https://github.com/dearjasker/jaskerlauncher/issues";
+    public static final String HELP_URL = "https://help-tau.vercel.app/";
+    public static final String CHANGELOG_URL = "https://github.com/dearjasker/jaskerlauncher/releases";
     public static final String PUBLISH_URL = "http://www.mcbbs.net/thread-142335-1-1.html";
     public static final String EULA_URL = "https://hmcl.huangyuhui.net/eula";
 
